@@ -1,0 +1,19 @@
+#spring.application.name=demo
+#spring.profiles.active=dev
+#spring.profiles.active=prod
+
+server:
+    port: 8080
+
+#showSql
+logging:
+    config: src/main/resources/log4j2-spring.xml
+    level:
+
+        #    root: debug
+        com:
+            example: debug
+#        mapper : debug
+#      zaxxer:
+#        hikari:
+#          HikariDataSource: debug
