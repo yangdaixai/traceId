@@ -9,7 +9,6 @@ server:
 logging:
     config: src/main/resources/log4j2-spring.xml
     level:
-
         #    root: debug
         com:
             example: debug

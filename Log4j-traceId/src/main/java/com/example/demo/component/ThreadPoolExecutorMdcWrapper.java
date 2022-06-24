@@ -42,6 +42,7 @@ public class ThreadPoolExecutorMdcWrapper extends ThreadPoolExecutor {
                 runnable.run();
             } finally {
                 MDC.clear();
+
             }
         };
     }
